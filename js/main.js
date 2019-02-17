@@ -88,19 +88,53 @@ buttonBackToMusic.addEventListener("click", function() {
     else {
         imHiddenBackToMusic.style.display = 'block'
     }
-    
-    
-    
+   
 }  );
 
 let buttonBackToMusicClose = document.getElementById('buttonBackToMusicClose');
 
 buttonBackToMusicClose.addEventListener("click", function() {
     
-    let imHiddenbuttonBackToMusicClose = document.getElementById('buttonBackToMusicClose');
+    let imHiddenButtonBackToMusicClose = document.getElementById('backToMusic');
    
-    if (imHiddenbuttonBackToMusicClose.style.display == 'block') {
-        imHiddenbuttonBackToMusicClose.style.display = 'none'
+    if (imHiddenButtonBackToMusicClose.style.display == 'block') {
+        imHiddenButtonBackToMusicClose.style.display = 'none'
+    } 
+    
+     
+}  );
+
+
+//TENSTION ON THE STRINGS
+
+
+
+let buttonTenstionOnTheStrings = document.getElementById('buttonTenstionOnTheStrings');
+
+buttonTenstionOnTheStrings.addEventListener("click", function() {
+    
+    let imHiddenTensionOnTheStrings = document.getElementById('tensionOnTheStrings');
+   
+    if (imHiddenTensionOnTheStrings.style.display === 'block') {
+        imHiddenTensionOnTheStrings.style.display = 'none'
+    } 
+    
+    else {
+        imHiddenTensionOnTheStrings.style.display = 'block'
+    }
+    
+    
+    
+}  );
+
+let buttonTensionOnTheStringsClose = document.getElementById('buttonTensionOnTheStringsClose');
+
+buttonTensionOnTheStringsClose.addEventListener("click", function() {
+    
+    let imHiddenTensionOnTheStringsClose = document.getElementById('tensionOnTheStrings');
+   
+    if (imHiddenTensionOnTheStringsClose.style.display == 'block') {
+        imHiddenTensionOnTheStringsClose.style.display = 'none'
     } 
     
       
@@ -108,25 +142,76 @@ buttonBackToMusicClose.addEventListener("click", function() {
 
 
 
+//WHO KILLED BAMBI
+
+let buttonWhoKilledBambi = document.getElementById('buttonWhoKilledBambi');
+
+buttonWhoKilledBambi.addEventListener("click", function() {
+    
+    let imHiddenbuttonWhoKilledBambi = document.getElementById('whoKilledBambi');
+   
+    if (imHiddenbuttonWhoKilledBambi.style.display == 'block') {
+        imHiddenbuttonWhoKilledBambi.style.display = 'none'
+    } 
+    
+    else {
+        imHiddenbuttonWhoKilledBambi.style.display = 'block'
+    }
+    
+    
+    
+}  );
 
 
 
 
+let buttonWhoKilledBambiClose = document.getElementById('buttonWhoKilledBambiClose');
+
+buttonWhoKilledBambiClose.addEventListener("click", function() {
+    
+    let imHiddenbuttonWhoKilledBambiClose = document.getElementById('whoKilledBambi');
+   
+    if (imHiddenbuttonWhoKilledBambiClose.style.display == 'block') {
+        imHiddenbuttonWhoKilledBambiClose.style.display = 'none'
+    } 
+    
+      
+}  );
 
 
 
+//TRIO COL BASSO
 
+let buttonTrioColBasso = document.getElementById('buttonTrioColBasso');
 
+buttonTrioColBasso.addEventListener("click", function() {
+    
+    let imHiddenButtonTrioColBasso = document.getElementById('trioColBasso');
+   
+    if (imHiddenButtonTrioColBasso.style.display == 'block') {
+        imHiddenButtonTrioColBasso.style.display = 'none'
+    } 
+    
+    else {
+        imHiddenButtonTrioColBasso.style.display = 'block'
+    }
+    
+    
+    
+}  );
 
+let buttonTrioColBassoClose = document.getElementById('buttonTrioColBassoClose');
 
-
-
-
-
-
-
-
-
+buttonTrioColBassoClose.addEventListener("click", function() {
+    
+    let imHiddenbuttonTrioColBassoClose = document.getElementById('trioColBasso');
+   
+    if (imHiddenbuttonTrioColBassoClose.style.display == 'block') {
+        imHiddenbuttonTrioColBassoClose.style.display = 'none'
+    } 
+    
+      
+}  );
 
 
 
