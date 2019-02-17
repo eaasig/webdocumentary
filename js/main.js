@@ -9,11 +9,11 @@ function variable: imHiddenSectionName
 
 
 //First Steps
-var buttonFirstSteps = document.getElementById('buttonFirstSteps');
+let buttonFirstSteps = document.getElementById('buttonFirstSteps');
 
 buttonFirstSteps.addEventListener("click", function() {
     
-    var imHiddenFirstSteps = document.getElementById('firstSteps');
+    let imHiddenFirstSteps = document.getElementById('firstSteps');
    
     if (imHiddenFirstSteps.style.display == 'block') {
         imHiddenFirstSteps.style.display = 'none'
@@ -25,28 +25,28 @@ buttonFirstSteps.addEventListener("click", function() {
     
     
     
-}  )
+}  );
 
-var buttonFirstStepsClose = document.getElementById('buttonFirstStepsClose');
+let buttonFirstStepsClose = document.getElementById('buttonFirstStepsClose');
 
 buttonFirstStepsClose.addEventListener("click", function() {
     
-    var imHiddenFirstSteps = document.getElementById('firstSteps');
+    let imHiddenFirstSteps = document.getElementById('firstSteps');
    
     if (imHiddenFirstSteps.style.display == 'block') {
         imHiddenFirstSteps.style.display = 'none'
     } 
     
       
-}  )
+}  );
 
 
 //The Strings Sisters
-var buttonTheStringsSisters = document.getElementById('buttonTheStringsSisters');
+let buttonTheStringsSisters = document.getElementById('buttonTheStringsSisters');
 
 buttonTheStringsSisters.addEventListener("click", function() {
     
-    var imHiddenTheStringsSisters = document.getElementById('theStringsSisters');
+    let imHiddenTheStringsSisters = document.getElementById('theStringsSisters');
    
     if (imHiddenTheStringsSisters.style.display == 'block') {
         imHiddenTheStringsSisters.style.display = 'none'
@@ -57,31 +57,31 @@ buttonTheStringsSisters.addEventListener("click", function() {
     }
   
     
-}  )
+}  );
 
 
-var buttonTheStringsSistersClose = document.getElementById('buttonTheStringsSistersClose');
+let buttonTheStringsSistersClose = document.getElementById('buttonTheStringsSistersClose');
 
 buttonTheStringsSistersClose.addEventListener("click", function() {
     
-    var imHiddenFirstSteps = document.getElementById('theStringsSisters');
+    let imHiddenFirstSteps = document.getElementById('theStringsSisters');
    
     if (imHiddenFirstSteps.style.display == 'block') {
         imHiddenFirstSteps.style.display = 'none'
     } 
     
       
-}  )
+});
 
 //BACK TO MUSIC
 
-var buttonBackToMusic = document.getElementById('buttonBackToMusic');
+let buttonBackToMusic = document.getElementById('buttonBackToMusic');
 
 buttonBackToMusic.addEventListener("click", function() {
     
-    var imHiddenBackToMusic = document.getElementById('backToMusic');
+    let imHiddenBackToMusic = document.getElementById('backToMusic');
    
-    if (imHiddenBackToMusic.style.display == 'block') {
+    if (imHiddenBackToMusic.style.display === 'block') {
         imHiddenBackToMusic.style.display = 'none'
     } 
     
@@ -91,20 +91,20 @@ buttonBackToMusic.addEventListener("click", function() {
     
     
     
-}  )
+}  );
 
-var buttonFirstStepsClose = document.getElementById('buttonFirstStepsClose');
+let buttonBackToMusicClose = document.getElementById('buttonBackToMusicClose');
 
-buttonFirstStepsClose.addEventListener("click", function() {
+buttonBackToMusicClose.addEventListener("click", function() {
     
-    var imHiddenFirstSteps = document.getElementById('firstSteps');
+    let imHiddenbuttonBackToMusicClose = document.getElementById('buttonBackToMusicClose');
    
-    if (imHiddenFirstSteps.style.display == 'block') {
-        imHiddenFirstSteps.style.display = 'none'
+    if (imHiddenbuttonBackToMusicClose.style.display == 'block') {
+        imHiddenbuttonBackToMusicClose.style.display = 'none'
     } 
     
       
-}  )
+}  );
 
 
 
