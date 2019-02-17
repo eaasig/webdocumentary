@@ -41,6 +41,7 @@ buttonFirstStepsClose.addEventListener("click", function() {
 }  );
 
 
+
 //The Strings Sisters
 let buttonTheStringsSisters = document.getElementById('buttonTheStringsSisters');
 
