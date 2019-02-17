@@ -1,0 +1,182 @@
+/*UTILITIES*/
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto');
+
+
+body, p {
+    font-family: 'Roboto', sans-serif;
+    overflow:auto;
+    padding:0;
+    margin:0;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   
+ font-family: 'Playfair Display', serif; 
+}
+
+.title {
+    font-size:3em;
+    padding:0;
+    margin-top:1em;
+}
+.subtitle {
+    font-size:1em;
+    
+}
+
+
+/*style opening buttons*/
+.buttonsMain {
+    
+}
+
+
+/*style close buttons*/
+.buttonsClose {
+    margin-right: 20px;
+
+}
+
+.nonLinearButtons {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+
+}
+
+.nonLinearContent {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+/*LANDING*/
+
+.splash {
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+#myVideo {
+
+    position: relative;
+    text-align: center;
+    width: 95vw;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*INTRO*/
+
+
+/*FIRST SECION BLOCK*/
+
+
+/*FIRST STEPS*/
+
+#firstSteps {
+    display: none;
+}
+
+
+/*STRINGS SISTERS*/
+#theStringsSisters {
+    display: none;
+}
+
+
+/*THE RIGHT RYTHM */
+
+.theRightRythm {
+  
+}
+
+/*CHANGE OF PLANS*/
+
+.changeOfPlans {
+    background-color:black;
+    color:white;
+    
+}
+/*SECOND SECTION BLOCK */
+
+
+
+/*BACK TO MUSIC*/
+
+#backToMusic {
+    display:none;
+}
+
+/*TENSION ON THE STRINGS*/
+#tensionOnTheStrings{
+    display:none;
+}
+
+/*A HARD GOODBYE*/
+
+.aHardGoodbye {
+     background-color:black;
+    color:white;
+}
+/*WHO KILLED BAMBI*/
+#whoKilledBambi {
+    display:none;
+}
+
+/*TRIO COL BASSO*/
+
+#trioColBasso {
+    display:none;
+}
+
+
+
+
+
+
+/*SUBPAGE WHO KILLED BAMBI*/
+
+
+/*SUBPAGE TRIO COL BASSO*/
+
+
+
+/*RESPONSIVENESS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
