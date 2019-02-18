@@ -243,7 +243,7 @@ h6 {
 }
 */
 
-/* CSS just for the numbers */
+
 
 /*FIRST SECION BLOCK*/
 
@@ -277,6 +277,62 @@ opacity: 1;
 }
 */
 
+
+.FS-title-container .firststeps-container{
+    display: flex;
+    flex-direction: column;
+}
+
+ .firststeps-container .img .firststeps-container .title{
+   
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.firststeps-container .img img{
+    width: 100%;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.firststeps-container .title{
+     align-items: center;
+    padding-top: 50px;
+}
+
+
+
+
+/** AUDIO**/
+ 
+.FS-audio-container{
+    padding-top: 65px;
+}
+
+.FS-icon {
+    text-align: center;
+    padding-top: 60px;
+}
+.FS-icon img{
+    width: 65px;
+}
+
+.FS-text-container{
+   
+    text-align: right;
+    line-height: 30px;
+    padding: 30px;
+}
+
+#example2 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #F5D286;
+width: 100%
+
+ 
+}
 /*STRINGS SISTERS*/
 #theStringsSisters {
     display: none;
@@ -342,7 +398,6 @@ opacity: 1;
  
 }
 
-}
 
 
 /*THE RIGHT RYTHM */
@@ -454,10 +509,6 @@ opacity: 1;
     width: 100%
 }
 
-
-=======
-
->>>>>>>
 }
 
 
