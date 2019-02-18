@@ -39,7 +39,7 @@
 
     <!--FIRST SECTION BUTTONS BLOCK-->
 
-    <section class="nonLinearButtons">
+    <section class="nonLinearButtons" id="jumpBack1">
 
         <div id="buttonFirstSteps" class="buttonsMain buttonFirstSteps">
 
@@ -51,12 +51,12 @@
                     <h2 class="subtitle hoverAnim">childhood &amp; <br>musical influences</h2>
                 </li>
                 <li><img src="media/placeholderyellow.jpg"></li>
-                <li><img src="media/placeholder.jpg" class="hoverAnim"></li>
+                <li><img src='media/placeholder.jpg' onmouseover="this.src='media/firstStepsHover.jpg';" onmouseout="this.src='media/placeholder.jpg';" class="hoverAnim"/></li>
 
             </ul>
 
         </div>
-
+ 
         <div id="buttonTheStringsSisters" class="buttonsMain">
             <ul class="gallery galleryRight">
                 <li>
@@ -66,9 +66,9 @@
                     <h2 class="subtitle hoverAnim">Trio col basso</h2>
                 </li>
                 <li><img src="media/placeholderyellow.jpg"></li>
-                <li><img src="media/placeholder.jpg" class="hoverAnim"></li>
+                <li><img src='media/placeholder.jpg' onmouseover="this.src='media/firstStepsHover.jpg';" onmouseout="this.src='media/placeholder.jpg';" class="hoverAnim"/></li>
 
-            </ul>
+       </ul>
 
         </div>
     </section>
@@ -121,6 +121,7 @@
                 
             </div>
 
+            <a id="buttonFirstStepsClose" class="buttonsClose" href="#jumpBack1"> CLOSE ME </a>
         </section>
         
         <section class="FS-text-container">
@@ -144,45 +145,62 @@
 
         <section id="theStringsSisters" class="theStringsSisters">
 
-
-            <h1 class="title">The Strings Sisters</h1>
-
-            <div>
-
-                <h2 class="subtitle">Trio col Basso</h2>
-            </div>
-
+           
             <div class="stringsSisters-banner-presentation">
 
-                <div class="ss-trio-pic1"><img src="" alt="">PICTURE HERE</div>
-                <ss-title-banner>Title Strings Sisters</ss-title-banner>
-                <div class="ss-subtitle-banner">Subtitle Trio col Basso</div>
+                <div class="ss-trio-pic1"></div>
 
+                <div class="ss-trio-title">
+                    <h1 class="title">The Strings Sisters</h1>
+                    <br>
+                    <h2 class="subtitle">Trio col Basso</h2>
+                    
+
+                </div>
+
+                
             </div>
+
+            <br>
 
             <div class="stringsSisters-text-container">
 
                 <div class="stringsSisters-storytelling-text">
 
-                    This is my trio. Me and the sisters: Freja and Ida. Ever since we started playing we experienced very special energy. Together we feel the impulse to continuously improve our musical skills. It brings us so much joy and inspiration. Also, it is just the right feeling to keep when it gets tough in the education. Our group is deeply moved by this mantra
+                    This is <b>my trio</b>. Me and the sisters: Freja and Ida. 
+                    
+                    <br>
+                    <br>
+                    
+                    <p>Ever since we started playing we experienced very special energy. </p>
+                    <br>
+                    <p>Together we feel the impulse to continuously improve our musical skills. </p> 
+                    <br>
+                    <p> <b>It brings us so much joy and inspiration.</b></p>
+                    <br>
+                    <p>Also, it is just the right feeling to keep when it gets tough in the education.</p>
+                    <br>
+                
+                     Our group is deeply moved by this mantra: 
+                    <br>
+                    
+                   <p><i>"Touch and surprise the audience"</i></p>
 
                 </div>
-
-                <div class="ss-trio-pic2"><img src="" alt="">PICTURE HERE</div>
-
-                <div class="ss-trio-mantra">"Touch and surprise the audience"</div>
-
+                                 
+                    <div class="ss-trio-pic2"></div>
+                
             </div>
 
             <div class="stringsSisters-video-container">
 
-                VIDEO HERE
+            <video class="stringsSisters-video-container" src="./media/string%20sisters.mp4" controls></video>
 
             </div>
 
 
 
-            <div id="buttonTheStringsSistersClose" class="buttonsClose"> CLOSE ME </div>
+            <a id="buttonTheStringsSistersClose" class="buttonsClose" href="#jumpBack1"> CLOSE ME </a>
         </section>
     </section>
    
@@ -207,7 +225,7 @@
 
     <!--SECOND SECTION BUTTONS BLOCK-->
 
-    <section class="nonLinearButtons">
+    <section class="nonLinearButtons" id="jumpBack2">
 
         <div class="buttonBackToMusic" id="buttonBackToMusic">
             <ul class="gallery">
@@ -218,7 +236,7 @@
                     <h2 class="subtitle hoverAnim">passion rediscovered</h2>
                 </li>
                 <li><img src="media/placeholderyellow.jpg"></li>
-                <li><img class="hoverAnim" src="media/placeholder.jpg"></li>
+                <li><img class="hoverAnim" src="media/placeholder.jpg" id="backToMusicImg"></li>
 
             </ul>
         </div>
@@ -232,7 +250,7 @@
                     <h2 class="subtitle hoverAnim">conservatory trial</h2>
                 </li>
                 <li><img src="media/placeholderyellow.jpg"></li>
-                <li><img class="hoverAnim" src="media/placeholder.jpg"></li>
+                <li><img class="hoverAnim"  id="tensionOnTheStringsImg" src="media/placeholder.jpg"></li>
 
             </ul>
         </div>
@@ -255,7 +273,7 @@
 
             <!-- XX YOUR CODE GOES HERE-->
 
-            <div id="buttonBackToMusicClose" class="buttonsClose"> CLOSE ME </div>
+            <a id="buttonBackToMusicClose" class="buttonsClose" href="#jumpBack2" > CLOSE ME </a>
 
         </section>
 
@@ -272,7 +290,7 @@
 
             <!-- XX YOUR CODE GOES HERE-->
 
-            <div id="buttonTensionOnTheStringsClose" class="buttonsClose"> CLOSE ME </div>
+            <a id="buttonTensionOnTheStringsClose" class="buttonsClose" href="#jumpBack2"> CLOSE ME </a>
         </section>
 
     </section>
@@ -296,7 +314,7 @@
 
     <!--THIRD SECTION BUTTONS BLOCK-->
 
-    <section class="thirdNonLinearButtons nonLinearButtons">
+    <section class="nonLinearButtons" id="jumpBack3">
         <div class="buttonWhoKilledBambi" id="buttonWhoKilledBambi">
             <ul class="gallery">
                 <li>
@@ -306,7 +324,7 @@
                     <h2 class="subtitle hoverAnim">new <br> opportunities</h2>
                 </li>
                 <li><img src="media/placeholderyellow.jpg"></li>
-                <li><img class="hoverAnim" src="media/placeholder.jpg"></li>
+                <li><img class="hoverAnim" src="media/placeholder.jpg" id="whoKilledBambiImg"></li>
 
             </ul>
         </div>
@@ -321,7 +339,7 @@
                     <h2 class="subtitle hoverAnim">classical harmony</h2>
                 </li>
                 <li><img src="media/placeholderyellow.jpg"></li>
-                <li><img class="hoverAnim" src="media/placeholder.jpg"></li>
+                <li><img id="trioColBassoImg" class="hoverAnim" src="media/placeholder.jpg"></li>
 
             </ul>
         </div>
@@ -342,7 +360,7 @@
 
             <!-- XX YOUR CODE GOES HERE-->
 
-            <div id="buttonWhoKilledBambiClose" class="buttonsClose"> CLOSE ME </div>
+            <a id="buttonWhoKilledBambiClose" class="buttonsClose" href="#jumpBack3"> CLOSE ME </a>
         </section>
 
 
@@ -360,7 +378,7 @@
             <!-- XX YOUR CODE GOES HERE-->
 
 
-            <div id="buttonTrioColBassoClose" class="buttonsClose"> CLOSE ME </div>
+            <a id="buttonTrioColBassoClose" class="buttonsClose" href="#jumpBack3"> CLOSE ME </a>
         </section>
 
     </section>
