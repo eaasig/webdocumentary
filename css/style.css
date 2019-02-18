@@ -205,6 +205,60 @@ h6 {
 }
 
 
+.stringsSisters-banner-presentation {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.ss-trio-pic1 {
+    background: url('../media/ss-trio-pic1.jpg') no-repeat center;
+    background-size: cover;
+ height: 30rem;
+    position: relative;
+    display: flex;
+    flex-basis: 30%;
+    margin: 50px 50px;
+
+}
+
+.ss-trio-title {
+align-self: center;
+
+}
+
+
+
+.stringsSisters-text-container {
+display: flex;
+
+}
+
+.stringsSisters-storytelling-text {
+text-align: left;
+margin-left: 50px;
+    margin-top: 50px;
+flex-basis: 50%;
+    
+}
+
+.ss-trio-pic2 {
+background: url('../media/ss-trio-pic2.jpg') no-repeat center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    height: 25rem;
+   flex-basis: 60%;
+    margin: 50px 50px;
+    justify-content: flex-end;    
+}
+
+.stringsSisters-video-container {
+   margin: auto;
+    max-width:850px;
+    
+}
+
+
 /*THE RIGHT RYTHM */
 
 .theRightRythm {}
@@ -287,7 +341,6 @@ h6 {
         width: 150px;
         height: auto;
     }
-
 
 
 }
