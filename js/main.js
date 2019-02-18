@@ -7,6 +7,29 @@ function variable: imHiddenSectionName
 
 */
 
+//onclick="'"
+//function (element1,element2) {
+//let elem1 = document.getElementById('element1');
+//
+//elem1.addEventListener("click", function() {
+//    
+//    let elem2 = document.getElementById('element2');
+//   
+//    if (elem2.style.display == 'block') {
+//        elem2.style.display = 'none'
+//    } 
+//    
+//    else {
+//        elem2.style.display = 'block'
+//    }
+//    
+//    
+//    
+//}  );
+//
+//}
+
+
 
 //First Steps
 let buttonFirstSteps = document.getElementById('buttonFirstSteps');
