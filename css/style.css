@@ -26,7 +26,11 @@ h6 {
 }
 
 
-
+section {
+    margin:2rem;
+    padding:1rem;
+    overflow:hidden;
+}
 
 .title {
     font-size: 3em;
@@ -278,10 +282,13 @@ opacity: 1;
 */
 
 
-.FS-title-container .firststeps-container{
+.firststeps-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
 }
+/*
 
  .firststeps-container .img .firststeps-container .title{
    
@@ -289,18 +296,21 @@ opacity: 1;
     flex-direction: column;
     
 }
+*/
 
+/*
 .firststeps-container .img img{
     width: 100%;
     padding-top: 10px;
     justify-content: center;
 }
 
-.firststeps-container .title{
+.firststeps-container{
      align-items: center;
     padding-top: 50px;
 }
 
+*/
 
 
 
@@ -549,7 +559,16 @@ width: 100%
     padding-left: 400px;
    
 }
+    
+    .firststeps-container{
+     flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+   
+    
+}
 
+/*
     
     .firststeps-container .img{
         justify-content: center;
@@ -558,7 +577,7 @@ width: 100%
     }
     
 
-    .FS-title-container .firststeps-container{
+    .firststeps-container{
         flex-direction: row;
         align-items: center;
         text-align: center;
@@ -566,6 +585,7 @@ width: 100%
         
     }
     
+*/
   
     #example2 {
    width: 900px;
