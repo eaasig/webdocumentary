@@ -259,6 +259,7 @@ h6 {
     display: none;
 }
 
+/*FIRST STEPS*/
 /*
 .firstSteps { 
  opacity: 0; 
@@ -270,6 +271,68 @@ h6 {
  -o-transition: visibility 0.2s linear,
  opacity 0.2s linear; 
 }
+
+
+/** HEADMASTER**/
+
+.FS-title-container .firststeps-container{
+    display: flex;
+    flex-direction: column;
+}
+
+ .firststeps-container .img .firststeps-container .title{
+   
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.firststeps-container .img img{
+    width: 100%;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.firststeps-container .title{
+     align-items: center;
+    padding-top: 50px;
+}
+
+
+
+
+/** AUDIO**/
+ 
+.FS-audio-container{
+    padding-top: 65px;
+}
+
+.FS-icon {
+    text-align: center;
+    padding-top: 60px;
+}
+.FS-icon img{
+    width: 65px;
+}
+
+.FS-text-container{
+   
+    text-align: right;
+    line-height: 30px;
+    padding: 30px;
+}
+
+#example2 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #F5D286;
+width: 100%
+
+ 
+}
+
+
+
 
 .firstSteps:hover { 
 visibility: visible; 
@@ -427,8 +490,43 @@ opacity: 1;
         width: 150px;
         height: auto;
     }
+    
+    
+    /*Andrea*/
+
+     .FS-audio-container{
+    padding: 35px;
+    padding-top: 100px;
+   
+}
+    
+    .FS-icon {
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 100px;
+}
+    
+    .FS-text-container{
+   
+    text-align: right;
+    line-height: 30px;
+    padding: 30px;
+}
+    
+    #example2 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #F5D286;
+    width: 100%
+
+<<<<<<<
+ 
+}
 
 
+=======
+
+>>>>>>>
 }
 
 
@@ -459,9 +557,42 @@ opacity: 1;
         height: auto;
 
     }
-
-
-
-
-
+    
+    /*andrea*/
+    
+       .FS-text-container{
+    width: 500px;
+    margin: 0 auto;
+    padding-left: 400px;
+   
 }
+<<<<<<<
+    
+    .firststeps-container .img{
+        justify-content: center;
+        width: 400px;
+        margin: 0 auto;
+    }
+    
+
+    .FS-title-container .firststeps-container{
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+
+        
+    }
+    
+  
+    #example2 {
+   width: 900px;
+    justify-content: center;
+
+ 
+}
+    
+    
+}
+=======
+
+>>>>>>>
