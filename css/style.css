@@ -867,8 +867,72 @@ opacity: 1;
     width: 100%;
 }
 
+/*FATHER JOHN MISTY*/
+
+.fatherJohnMisty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-wrap: wrap;
 
 
+}
+
+.fatherJohnMisty p{
+    padding:1em;
+}
+
+.fatherText{
+    max-width: 400px;
+}
+
+iframe {
+    box-shadow: 5px 10px #F5D286;
+}
+
+.fatherJohnMisty div:nth-child(1) {
+    flex-basis: 100%;
+
+}
+
+
+/*FOOTER*/
+.footerContainer{
+    margin-bottom:2rem;
+}
+
+.footerNav {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.footernav a:nth-child(4) {
+    flex-basis:100%;
+}
+
+
+
+.footerNav a {
+
+    color: black;
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    width: 258px;
+    height: 60px;
+    padding: 1rem;
+    margin: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid var(--yellow);
+
+
+}
 
 
 /*SUBPAGE WHO KILLED BAMBI*/
