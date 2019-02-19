@@ -260,16 +260,9 @@ function StopSound(soundobj) {
 
 
 
+//ON SCROLL REVEAL
 
-//$(document).ready(function() {
-//  $('#vert').val('e\nd\ni\nt');   
-//});
-//
-
-
-
-
-
+  AOS.init();
 
 
 

@@ -10,10 +10,13 @@
 * {
     box-sizing: border-box;
 }
+
+/*
 html {
     background:url(../media/texture.png);
    
 }
+*/
 
 body,
 p {
