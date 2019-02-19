@@ -238,27 +238,33 @@ buttonTrioColBassoClose.addEventListener("click", function() {
 }  );
 
 
+//
+//var audio = document.getElementById("FSSound");
+//audio.play();
+//
+
+
+
+// PLAY ON HOVER
+
+function PlaySound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.play();
+}
+
+function StopSound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.pause();
+    thissound.currentTime = 0;
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//$(document).ready(function() {
+//  $('#vert').val('e\nd\ni\nt');   
+//});
+//
 
 
 

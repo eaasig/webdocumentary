@@ -11,18 +11,48 @@
 <body>
 
     <!--LANDING -->
-
-    <section class="splash">
-
+<div class="splashShape"></div> 
+      
+      <div id="splashName">
+         <h1>Silke</h1>
+           <div class="splashAccent"></div>
+            <h1>Kidholm</h1>
+          
+          
+      </div>
+    <section id="splash">
+ 
         <video autoplay muted loop id="myVideo">
             <source src="media/landing%20video.mp4" type="video/mp4">
         </video>
 
+    
+       
+       
+       
+       
+       
+        <nav>
+           
+            <div id="rotateLeft">
+                <a href="who-killed-bambi.html">  Who killed Bambi</a>
+            </div>
+
+            <div id="rotateRight"> 
+            <a href="trio-col-basso.html"> Trio col basso</a>
+
+            </div>
+          
+        </nav>
+
+
+
+
     </section>
 
-    <section class="introduction">
+    <section id="introduction">
         <h1>Hey, <br>
-            I’m Silke.</h1>
+            I’m Silke</h1>
         <h2>Classical Violinist</h2>
         <br>
         <p>Studying at the Royal Music Conservatory in Aarhus</p>
@@ -104,26 +134,28 @@
 
             <!--            </section>-->
 
+            <!--
 
             <div class="FS-audio-container">
 
                 <audio controls id="example2">
                     <source src="media/First%20steps%20audio.mp3" type="audio/mpeg">
                 </audio>
+-->
 
 
 
+            <div class="FS-icon">
+                <img src="media/microphone.png" onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')" class="hoverAnim">
 
-                <div class="FS-icon">
-                    <img src="media/microphone.png">
-
-                    <audio id="Sound" src="media/First%20steps%20audio.mp3" type="audio/mpeg">
-                    </audio>
-
-                </div>
-
+                <!--
+                  
+-->
 
             </div>
+
+
+
 
             <div class="FS-text-container">
                 <p>The music dream started early.<br><br>
@@ -135,9 +167,9 @@
 
             </div>
 
-
-            <a id="buttonFirstStepsClose" onclick="setTimeout(, 3000)" class="buttonsClose" href="#jumpBack1"> CLOSE ME </a>
-
+            <div class="buttonsCloseContainer">
+                <a id="buttonFirstStepsClose" class="buttonsClose" href="#jumpBack1"> CLOSE ME </a>
+            </div>
         </section>
 
 
@@ -396,7 +428,7 @@
 
             </div>
 
-   
+
 
             <a id="buttonBackToMusicClose" class="buttonsClose" href="#jumpBack2"> CLOSE ME </a>
 
@@ -406,18 +438,18 @@
 
         <section class="tensionOnTheStrings" id="tensionOnTheStrings">
 
-           
-  <div class="tensionOnTheStrings-banner-presentation">
+
+            <div class="tensionOnTheStrings-banner-presentation">
 
                 <div class="tensionOnTheStrings-pic"></div>
 
                 <div class="tensionOnTheStrings-title">
-                   <h1 class="title">Tension on the Strings</h1>
+                    <h1 class="title">Tension on the Strings</h1>
 
-            <div>
-                <h2 class="subtitle">Conservatory trial</h2>
-            </div>
-                  
+                    <div>
+                        <h2 class="subtitle">Conservatory trial</h2>
+                    </div>
+
                 </div>
             </div>
 
@@ -614,16 +646,9 @@
 
             </div>
 
-            <div class="TCB-audio-container">
-
-                <audio controls id="example1">
-                    <source src="media/Trio%20col%20Basso%20audio.mp3">
-                </audio>
-
-            </div>
 
             <div class="TCB-icon" id="sound">
-                <img src="media/microphone.png">
+                <img src="media/microphone.png" onmouseover="PlaySound('TCBSound')" onmouseout="StopSound('TCBSound')" class="hoverAnim">
 
                 <audio id="Sound" src="media/First%20steps%20audio.mp3" type="audio/mpeg">
                 </audio>
@@ -648,7 +673,7 @@
             stage with <br>
             Father John Misty</h1>
 
-        VIDEO HERE
+        <video src=""></video>
 
     </section>
 
@@ -665,7 +690,9 @@
     </footer>
 
     <script src="js/main.js"></script>
-    <script src="js/onscroll.js"></script>
+
+    <audio id='mySound' src='media/First%20steps%20audio.mp3' />
+    <audio id='TCBSound' src='media/Trio%20col%20Basso%20audio.mp3' />
 
 
 </body>
