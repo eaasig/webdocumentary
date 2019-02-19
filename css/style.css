@@ -460,6 +460,85 @@ opacity: 1;
     display: none;
 }
 
+/*BACK TO MUSIC*/
+
+#backToMusic {
+    display: none;
+}
+
+.backToMusic-banner-container {
+    display: flex;
+}
+
+.back-music-silke-pic1 {
+    background: url('../media/back-music-silke-pic1.jpg') no-repeat center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    height: 50rem;
+   flex-basis: 50%;
+    margin: 50px 50px;
+    justify-content: flex-end;    
+    
+}
+
+.backToMusic-title {
+    align-self: center;
+}
+
+.backToMusic-text-container {
+    display: flex;
+}
+
+.backToMusic-storytelling-text {
+text-align: left;
+margin:auto;
+flex-basis: 100%;
+    
+}
+
+
+
+
+/* PICTURES RESPONSIVE GALLERY */
+
+.pictures-gallery-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pics-responsive-gallery {
+    display: flex;
+    
+}
+
+.pics-gallery {
+    
+    border: 1px solid #ccc;
+}
+
+.pics-gallery:hover {
+    border: 1px solid #777;
+
+}
+
+.pics-gallery img {
+    height: auto;
+    margin: 1rem;
+
+}
+
+.pics-description {
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
 /*TENSION ON THE STRINGS*/
 #tensionOnTheStrings {
     display: none;
@@ -546,6 +625,11 @@ opacity: 1;
         box-shadow: 5px 10px #F5D286;
         width: 100%
     }
+    
+     .pictures-gallery-container {
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
 
 }
 
@@ -620,6 +704,12 @@ opacity: 1;
         justify-content: center;
 
 
+    }
+    
+    .pictures-gallery-container {
+        flex-direction:row;
+        flex-wrap: wrap;
+        
     }
 
 }
