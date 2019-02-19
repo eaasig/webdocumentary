@@ -10,7 +10,10 @@
 * {
     box-sizing: border-box;
 }
-
+html {
+    background:url(../media/texture.png);
+   
+}
 
 body,
 p {
@@ -18,6 +21,7 @@ p {
     /*    overflow: auto;*/
     padding: 0;
     margin: 0;
+    
 }
 
 h1,
@@ -67,6 +71,9 @@ section {
 
 }
 
+.noMobile {
+    display:none;
+}
 
 .nonLinearContent section {
     text-align: center;
@@ -78,20 +85,20 @@ section {
 }
 
 
-}
-
-
 .gallery {
     transition: transform .3s;
 }
+
 
 .gallery:hover {
     transform: scale(1.1);
 }
 
+
 .hoverAnim {
     transition: transform .2s;
 }
+
 
 .hoverAnim:hover {
     transform: scale(1.1);
@@ -151,9 +158,8 @@ background-attachment: fixed;
 #splashName {
     position: absolute;
     z-index: 21;
-    top: 10px;
-    padding: 10rem;
-    font-size: 2em;
+    padding-left: 12rem;
+padding-top:3rem;
     color: white;
 
 }
@@ -170,24 +176,31 @@ background-attachment: fixed;
 
 
 /*INTRO*/
-nav {
-
-    display: flex;
-    justify-content: space-between;
-    align-content: space-between;
-    position: absolute;
-    z-index: 1;
-    bottom: 25px;
-    width: 100vw;
-}
 
 
-nav a {
-    text-decoration: none;
-    color: var(--yellow);
-   
-    padding: 0;
-    margin: 0;
+    nav {
+
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        position: absolute;
+        z-index: 10;
+        top: 40vh;
+        width: 100vw;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: var(--yellow);
+        font-size: 1.2em;
+        padding: 0;
+        margin: 0;
+    }
+
+nav a:hover{
+    color:white;
+    
+  
 }
 
 .splashAccent {
@@ -201,12 +214,13 @@ nav a {
     clip-path: polygon(23% 0, 45% 0, 16% 100%, 0 100%, 0 32%);
     background-color: var(--yellow);
     position: absolute;
-
     height: 100vh;
-    width: 75vw opacity:0.2;
+    width: 75vw;
+    opacity:0.2;
     overflow: auto;
-    z-index: 20;
+    z-index: 2;
 }
+
 
 #rotateRight {
 
@@ -954,6 +968,13 @@ opacity: 1;
 
 
 @media only screen and (min-width: 768px) {
+   
+    .noMobile {
+    display:block;
+}
+    
+    
+    
     .nonLinearButtons {
         flex-direction: row;
     }
@@ -1114,25 +1135,6 @@ opacity: 1;
 
 
 
-
-    nav {
-
-        display: flex;
-        justify-content: space-between;
-        align-content: space-between;
-        position: absolute;
-        z-index: 1;
-        top: 50vh;
-        width: 100vw;
-    }
-
-    nav a {
-        text-decoration: none;
-        color: var(--yellow);
-        font-size: 1.2em;
-        padding: 0;
-        margin: 0;
-    }
 
 
 
