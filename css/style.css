@@ -23,7 +23,7 @@ p {
     font-family: 'Roboto', sans-serif;
     /*    overflow: auto;*/
     overflow-x:hidden;
-    padding: 1em;
+    padding: .5em;
     margin: 0;
    
     
@@ -137,7 +137,8 @@ section {
     text-decoration: none;
     font-weight: bold;
     color: black;
-    border: 1px solid black;
+   
+    background-color:#d1d2d4;
 
 
 
@@ -188,8 +189,15 @@ padding-top:3rem;
 
 /*INTRO*/
 
+.introText {
+display:flex;
+   justify-content: space-between;
+    
+}
 
-    nav {
+
+
+nav {
 
         display: flex;
         justify-content: space-between;
@@ -380,69 +388,38 @@ nav a:hover{
 
 /*FIRST SECION BLOCK*/
 
-.buttonFirstSteps {}
-
-.yellowDiv {}
-
-.pictureDiv {}
-
 /*FIRST STEPS*/
 
 #firstSteps {
     display: none;
 }
 
-/*
-.firstSteps { 
- opacity: 0; 
- visibility: hidden;
- -webkit-transition: visibility 0.2s linear,
- opacity 0.2s linear;
- -moz-transition: visibility 0.2s linear,
- opacity 0.2s linear;
- -o-transition: visibility 0.2s linear,
- opacity 0.2s linear; 
-}
-
-.firstSteps:hover { 
-visibility: visible; 
-opacity: 1; 
-}
-*/
 
 
-.firststeps-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
-}
-
-/*
-
- .firststeps-container .img .firststeps-container .title{
+    .firststeps-container {
+        display: flex;
+        justify-content: space-around;
    
-    display: flex;
-    flex-direction: column;
+    }
+
+
+.silkeImg {
+     background: url('../media/silka.jpg') no-repeat center;
+    background-size: cover;
+    height: 20rem;
+    width:20rem;
+
+  
+ 
+}
+
+.FSTEXTCONT {
+    display:flex;
+    justify-content: center;
+   margin:2rem;
     
 }
-*/
-
-/*
-.firststeps-container .img img{
-    width: 100%;
-    padding-top: 10px;
-    justify-content: center;
-}
-
-.firststeps-container{
-     align-items: center;
-    padding-top: 50px;
-}
-
-*/
-
-
 
 /** AUDIO**/
 
@@ -460,10 +437,9 @@ opacity: 1;
 }
 
 .FS-text-container {
+flex-basis:50%;
+text-align: left;
 
-    text-align: right;
-    line-height: 30px;
-    padding: 30px;
 }
 
 #example2 {
@@ -505,17 +481,18 @@ opacity: 1;
 
 .stringsSisters-text-container {
     display: flex;
+    justify-content: center;
 
 }
 
 .stringsSisters-storytelling-text {
     text-align: left;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-bottom: 2rem;
     flex-basis: 50%;
 
 }
 
+/*
 .ss-trio-pic2 {
     background: url('../media/ss-trio-pic2.jpg') no-repeat center;
     background-size: cover;
@@ -526,6 +503,7 @@ opacity: 1;
     margin: 50px 50px;
     justify-content: flex-end;
 }
+*/
 
 .stringsSisters-video-container {
 
@@ -561,6 +539,7 @@ opacity: 1;
     background:url(../media/blackgrain.png);
     background-color: black;
     color: white;
+    padding-bottom: 3rem;
 
 }
 
@@ -607,7 +586,7 @@ opacity: 1;
     background-size: cover;
     position: relative;
     display: flex;
-    height: 50rem;
+    height: 30rem;
     flex-basis: 50%;
     margin: 50px 50px;
     justify-content: flex-end;
@@ -620,12 +599,13 @@ opacity: 1;
 
 .backToMusic-text-container {
     display: flex;
+    justify-content: center;
 }
 
 .backToMusic-storytelling-text {
     text-align: left;
     margin: auto;
-    flex-basis: 100%;
+    flex-basis: 50%;
 
 }
 
@@ -709,6 +689,7 @@ box-shadow: 5px 10px #F5D286;
 
 .tensionOnTheStrings-text-container {
     display: flex;
+    justify-content: center;
 
 }
 
@@ -784,7 +765,8 @@ box-shadow: 5px 10px #F5D286;
     margin-top: 2rem;
     text-align: left;
     line-height: 1rem;
-    margin: 1rem;
+   
+      margin-top: 2rem;
 }
 
 .WKB-text2-container {
@@ -795,27 +777,8 @@ box-shadow: 5px 10px #F5D286;
     margin: 1rem;
 }
 
-.WKB-img-container .img img {
-    width: 100%;
-    display: flex;
-    margin: 0 auto;
-    padding-top: 20px;
-}
 
-.WKB-gallery {
-    display: flex;
-    padding-top: 90px;
-    flex-direction: column;
-    align-items: center;
 
-}
-
-.WKB-gallery .wkb-pic1 img,
-.wkb-pic2 img,
-.wkb-pic3 img {
-    width: 300px;
-
-}
 
 
 
@@ -870,7 +833,6 @@ box-shadow: 5px 10px #F5D286;
 }
 
 /** audio**/
-
 
 
 .TCB-icon {
@@ -1053,15 +1015,8 @@ iframe {
 
     }
 
-    .WKB-gallery {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-
-    }
-
-
-    .splashShape {
+   
+     .splashShape {
 
         height: 100vh;
         width: 75vw;
@@ -1112,36 +1067,12 @@ iframe {
     .FS-text-container {
 
         margin: 0 auto;
-        padding-left: 400px;
+      
 
     }
 
-    .firststeps-container {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
 
 
-    }
-
-    /*
-    
-    .firststeps-container .img{
-        justify-content: center;
-        width: 400px;
-        margin: 0 auto;
-    }
-    
-
-    .firststeps-container{
-        flex-direction: row;
-        align-items: center;
-        text-align: center;
-
-        
-    }
-    
-*/
 
     #example2 {
         width: 900px;
@@ -1216,18 +1147,8 @@ iframe {
 
     }
 
-    .WKB-img-container .img img {
-        width: 500px;
-    }
-
-    .WKB-gallery {
-
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-
+  
+   
 
     .splashShape {
 
