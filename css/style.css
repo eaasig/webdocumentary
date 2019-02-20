@@ -558,6 +558,7 @@ opacity: 1;
 /*CHANGE OF PLANS*/
 
 .changeOfPlans {
+    background:url(../media/blackgrain.png);
     background-color: black;
     color: white;
 
@@ -646,13 +647,15 @@ opacity: 1;
 
 .pics-gallery {
 box-shadow: 5px 10px #F5D286;
-    border: 1px solid #F5D286;
+/*    border: 1px solid #F5D286;*/
 }
 
+/*
 .pics-gallery:hover {
     border: 1px solid #777;
 
 }
+*/
 
 .pics-gallery img {
     height: auto;
@@ -720,7 +723,7 @@ box-shadow: 5px 10px #F5D286;
 /*A HARD GOODBYE*/
 
 .aHardGoodbye {
-    background: url('../media/darkBackground.png');
+    background: url('../media/blackgrain.png');
     color: white;
     padding-bottom: 100px;
 }
