@@ -22,14 +22,15 @@ body,
 p {
     font-family: 'Roboto', sans-serif;
     /*    overflow: auto;*/
-    overflow-x:hidden;
+    overflow-x: hidden;
     padding: .5em;
     margin: 0;
-   
-    
+
+
 }
+
 .textCenter {
-    text-align:center;
+    text-align: center;
     max-width: 50%;
 }
 
@@ -82,7 +83,7 @@ section {
 }
 
 .noMobile {
-    display:none;
+    display: none;
 }
 
 .nonLinearContent section {
@@ -137,8 +138,8 @@ section {
     text-decoration: none;
     font-weight: bold;
     color: black;
-   
-    background-color:#d1d2d4;
+
+    background-color: #d1d2d4;
 
 
 
@@ -171,7 +172,7 @@ background-attachment: fixed;
     position: absolute;
     z-index: 21;
     padding-left: 12rem;
-padding-top:3rem;
+    padding-top: 3rem;
     color: white;
 
 }
@@ -190,36 +191,36 @@ padding-top:3rem;
 /*INTRO*/
 
 .introText {
-display:flex;
-   justify-content: space-between;
-    
+    display: flex;
+    justify-content: space-between;
+
 }
 
 
 
 nav {
 
-        display: flex;
-        justify-content: space-between;
-        align-content: space-between;
-        position: absolute;
-        z-index: 10;
-        top: 40vh;
-        width: 100vw;
-    }
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    position: absolute;
+    z-index: 10;
+    top: 40vh;
+    width: 100vw;
+}
 
-    nav a {
-        text-decoration: none;
-        color: var(--yellow);
-        font-size: 1.2em;
-        padding: 0;
-        margin: 0;
-    }
+nav a {
+    text-decoration: none;
+    color: var(--yellow);
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+}
 
-nav a:hover{
-    color:white;
-    
-  
+nav a:hover {
+    color: white;
+
+
 }
 
 .splashAccent {
@@ -235,7 +236,7 @@ nav a:hover{
     position: absolute;
     height: 100vh;
     width: 75vw;
-    opacity:0.2;
+    opacity: 0.2;
     overflow: auto;
     z-index: 2;
 }
@@ -296,7 +297,7 @@ nav a:hover{
     grid-column: 1/3;
     grid-row: 2/6;
     z-index: 1;
-    font-size: 1.em;
+    font-size: 1em;
     align-self: end;
     margin: 0;
     padding: 0;
@@ -395,30 +396,25 @@ nav a:hover{
 }
 
 
+.firststeps-container {
+    display: flex;
+    justify-content: space-around;
 
-
-    .firststeps-container {
-        display: flex;
-        justify-content: space-around;
-   
-    }
+}
 
 
 .silkeImg {
-     background: url('../media/silka.jpg') no-repeat center;
+    background: url('../media/silka.jpg') no-repeat center;
     background-size: cover;
     height: 20rem;
-    width:20rem;
-
-  
- 
+    width: 20rem;
 }
 
 .FSTEXTCONT {
-    display:flex;
+    display: flex;
     justify-content: center;
-   margin:2rem;
-    
+    margin: 2rem;
+
 }
 
 /** AUDIO**/
@@ -437,8 +433,8 @@ nav a:hover{
 }
 
 .FS-text-container {
-flex-basis:50%;
-text-align: left;
+    flex-basis: 50%;
+    text-align: left;
 
 }
 
@@ -521,22 +517,22 @@ text-align: left;
 /*THE RIGHT RYTHM */
 
 .theRightRythm {
-    display:flex;
+    display: flex;
     justify-content: space-around;
-    text-align:justify;
-    
-   
+    text-align: justify;
+
+
 }
 
-.theRightRythmText{
-    padding:2rem;
-    flex-basis:50%;
+.theRightRythmText {
+    padding: 2rem;
+    flex-basis: 50%;
 }
 
 /*CHANGE OF PLANS*/
 
 .changeOfPlans {
-    background:url(../media/blackgrain.png);
+    background: url(../media/blackgrain.png);
     background-color: black;
     color: white;
     padding-bottom: 3rem;
@@ -626,8 +622,8 @@ text-align: left;
 }
 
 .pics-gallery {
-box-shadow: 5px 10px #F5D286;
-/*    border: 1px solid #F5D286;*/
+    box-shadow: 5px 10px #F5D286;
+    /*    border: 1px solid #F5D286;*/
 }
 
 /*
@@ -761,22 +757,19 @@ box-shadow: 5px 10px #F5D286;
 
 /**text**/
 
-.WKB-text1-container {
-    margin-top: 2rem;
-    text-align: left;
-    line-height: 1rem;
-   
-      margin-top: 2rem;
-}
 
 .WKB-text2-container {
+    display: flex;
+    justify-content: center;
 
-    text-align: right;
-
-    line-height: 1rem;
-    margin: 1rem;
 }
 
+.WKB-text {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    flex-basis: 50%;
+}
 
 
 
@@ -823,16 +816,17 @@ box-shadow: 5px 10px #F5D286;
 }
 
 
-/**text**/
-
 .TCB-text-container {
-
-    text-align: right;
-    line-height: 30px;
-    padding: 30px;
+    display:flex;
+    justify-content: center;
 }
 
-/** audio**/
+.TCBText {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    flex-basis: 50%;
+}
 
 
 .TCB-icon {
@@ -851,6 +845,24 @@ box-shadow: 5px 10px #F5D286;
     width: 100%;
 }
 
+
+.trioImg {
+    background: url('../media/triocl.jpg') no-repeat center;
+    background-size: cover;
+    height: 28rem;
+    position: relative;
+    display: flex;
+    flex-basis: 30%;
+    margin: 50px 50px;
+
+
+
+}
+
+
+
+
+
 /*FATHER JOHN MISTY*/
 
 .fatherJohnMisty {
@@ -860,14 +872,13 @@ box-shadow: 5px 10px #F5D286;
     padding: 2rem;
     flex-wrap: wrap;
 
-
 }
 
-.fatherJohnMisty p{
-    padding:1em;
+.fatherJohnMisty p {
+    padding: 1em;
 }
 
-.fatherText{
+.fatherText {
     max-width: 400px;
 
 }
@@ -883,39 +894,39 @@ iframe {
 
 
 .theRightRythm {
-    display:flex;
+    display: flex;
     justify-content: space-around;
-    text-align:justify;
-    
-   
+    text-align: justify;
 }
 
-.theRightRythmText{
-    padding:2rem;
-    flex-basis:50%;
+.theRightRythmText {
+    padding: 2rem;
+    flex-basis: 50%;
 }
 
 
 /*FOOTER*/
-.footerContainer{
-    margin-bottom:2rem;
+.footerContainer {
+ 
+    background-color:#d1d2d4;
+    color: white;
+   
 }
 
 .footerNav {
     display: flex;
     justify-content: center;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
 .footernav a:nth-child(4) {
-    flex-basis:100%;
+    flex-basis: 100%;
 }
 
 
 
 .footerNav a {
-
-    color: black;
+    color: white;
     font-size: 1.2em;
     padding: 0;
     margin: 0;
@@ -928,9 +939,21 @@ iframe {
     text-decoration: none;
     font-weight: bold;
     text-align: center;
-    border: 1px solid var(--yellow);
+    border: 1px solid white;
+
+}
 
 
+.ending{
+    
+    
+ background: url('../media/conserv.jpg') no-repeat center;
+    background-size: cover;
+    height: 50rem;
+    position: relative;
+    display: flex;
+    flex-basis: 30%;
+    margin: 50px 50px;
 }
 
 
@@ -943,7 +966,7 @@ iframe {
 
 /*RESPONSIVENESS*/
 
-}
+
 
 @media only screen and (min-width: 480px) {
     .nonLinearButtons {
@@ -998,25 +1021,8 @@ iframe {
     }
 
 
-    .TCB-text-container {
-        text-align: right;
-        line-height: 30px;
-        padding: 30px;
-    }
 
-
-
-
-    .WKB-text2-container {
-        margin-top: 2rem;
-        text-align: right;
-        line-height: 1rem;
-
-
-    }
-
-   
-     .splashShape {
+    .splashShape {
 
         height: 100vh;
         width: 75vw;
@@ -1027,13 +1033,13 @@ iframe {
 
 
 @media only screen and (min-width: 768px) {
-   
+
     .noMobile {
-    display:block;
-}
-    
-    
-    
+        display: block;
+    }
+
+
+
     .nonLinearButtons {
         flex-direction: row;
     }
@@ -1067,7 +1073,7 @@ iframe {
     .FS-text-container {
 
         margin: 0 auto;
-      
+
 
     }
 
@@ -1102,12 +1108,6 @@ iframe {
 
     }
 
-    .TCB-text-container {
-
-        margin: 0 auto;
-        padding-left: 400px;
-
-    }
 
     #example1 {
         width: 700px;
@@ -1127,13 +1127,15 @@ iframe {
 
     }
 
+    /*
     .WKB-text2-container {
         overflow: hidden;
         margin-top: 5rem;
         margin-bottom: 5rem;
-        /*		padding-left: 400px;*/
+        		padding-left: 400px;
 
     }
+*/
 
     .WKB-text1-container {
         overflow: hidden;
@@ -1147,8 +1149,8 @@ iframe {
 
     }
 
-  
-   
+
+
 
     .splashShape {
 
